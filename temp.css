@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-18 13:18:10
+ * @version $Id$
+ */
+body{
+  	font-family: '仿宋';
+}
+
+.container{
+	padding: 0;
+}
+
+.head{
+	height: 188px;
+	padding: 0;
+	/*background-color: lightgray;*/
+	display: flex;
+}
+
+.head_left{
+	padding-top: 32px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: white;
+}
+
+.head_left_in{
+	padding-top: 12px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.head_left_in_s{
+	height: 36px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.head_img1{
+	height: 27px;
+	width: 34px;
+}
+
+.head_img2{
+	height: 25px;
+	width: 13px;
+}
+
+.head_img3{
+	height: 25px;
+	width: 60px;
+}
+
+.head_img4{
+	height: 35px;
+	width: 32px;
+}
+
+.head_middle{
+	padding-top: 32px;
+	display: flex;
+	flex-direction: column;
+}
+
+.head_middle_top{
+	height: 56px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.head_logo{
+	height: 56px;
+	width: 64px;
+
+}
+
+.head_middle_bottom{
+	padding: 0;
+	margin-top: 18px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.head_middle_bottom_in{
+	padding: 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+.head_right{
+	padding-top: 32px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: white;
+}
+
+.head_right_in{
+	padding-top: 12px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.head_right_in_s{
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.mainvisual{
+	padding: 0;
+	margin-top: 20px;
+}
+
+.mainvisual_list_in{
+	padding: 0;
+}
+
+.mainvisual_img{
+	width: 100%;
+}
