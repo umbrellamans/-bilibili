@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /**
  * 
- * @authors Your Name (you@example.org)
+ * @authors umbrellaman (you@example.org)
  * @date    2017-05-18 13:18:10
- * @version $Id$
+ * @version $1.0$
  */
 body{
   	font-family: '仿宋';
@@ -39,6 +39,7 @@ body{
 	display: flex;
 	justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .head_img1{
@@ -113,11 +114,18 @@ body{
 	justify-content: center;
 	font-weight: bold;
 	font-size: 125%;
+	cursor: pointer;
 }
 
 .container-fluid{
 	padding: 0;
 }
+
+/*.mainvisual_out{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
 
 .mainvisual{
 	padding: 0;
@@ -130,4 +138,512 @@ body{
 
 .mainvisual_img{
 	width: 100%;
+}
+
+.mainvisual_scroll{
+	margin-left: 0;
+	height: 100px;
+	width: 80px;
+}
+
+.recommends{
+	padding: 0;
+
+}
+
+.recommends_in{
+	padding: 0;
+	margin-top: 150px;
+	display: flex;
+}
+
+.recommends_in_img{
+	padding: 0;
+	margin-top: 100px;
+}
+
+.recommends_img{
+	width: 100%;
+}
+
+.recommends_in_font{
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.recommends_in_font_in{
+	padding: 0;
+}
+
+.recommends_font_title{
+	width: 100%;
+}
+
+.recommends_font_middle{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.recommends_font_bottom{
+	margin-top: 40px;
+	margin-left: 20px;
+	line-height: 2.3;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.recommends_button{
+	height: 31px;
+	width: 100%;
+	margin-top: 25px;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 0;
+}
+
+.recommends_in_img_s{
+	padding: 0;
+}
+
+.brands{
+	margin-top: 95px;
+}
+
+.brands_in{
+	padding: 0;
+	display: flex;
+	/*justify-content: center;*/
+	flex-direction: column;
+}
+
+.brands_in_top{
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	/*height: 290px;
+	width: 290px;
+	background-image: url(image/bg_logo_frame.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;*/
+}
+
+
+.brands_in_top_in{
+	height: 290px;
+	width: 290px;
+	background-image: url(image/bg_logo_frame.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.brands_img{
+	height: 50px;
+	width: 120px;
+}
+
+.brands_img_s{
+	height: 72px;
+	width: 72px;
+}
+
+.brands_in_bottom{
+	margin-top: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    /*writing-mode: vertical-rl;
+    line-height: 2;
+    font-size: 14px;*/
+}
+
+.brands_in_bottom_in{
+	writing-mode: vertical-rl;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navigation{
+	margin-top: 110px;
+}
+
+.navigation_in{
+	padding: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navigation_back_1{
+	background-image: url(image/img_top_recruit.jpg);
+	height: 285px;
+	width: 205px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+}
+
+.navigation_filter{
+	height: 285px;
+	width: 205px;
+	position: absolute;
+	z-index: 2;
+	background: #000;
+	opacity: 0.5;
+	filter:alpha(opacity=0.5);
+	top: 0px;
+}
+
+.navigation_back_2{
+	background-image: url(image/img_top_okaki.jpg);
+	height: 285px;
+	width: 205px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+}
+
+.navigation_back_3{
+	background-image: url(image/img_top_waselect.jpg);
+	height: 285px;
+	width: 205px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+}
+
+.navigation_back_4{
+	background-image: url(image/img_top_nutrition.jpg);
+	height: 285px;
+	width: 205px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+}
+
+.navigation_font{
+	height: 76%;
+	width: 20%;
+	position: absolute;
+    left: 40%;
+    top: 24%
+}
+
+.info{
+	margin-top: 385px;
+}
+
+.info_left{
+	line-height: 1.5;
+	display: flex;
+	justify-content: center;
+    align-items: center
+    font-size: 14px;
+    letter-spacing:.1em;
+    margin-top: 5px;
+	/*font-weight: bold;*/
+    font-family: 'Adobe Garamond Pro';
+}
+
+.info_middle{
+	display: flex;
+	flex-direction: column; 
+}
+
+.info_middle_botton{
+	width: 100%;
+	border-radius: 0;
+	border-color: black;
+	height: 36px;
+	font-weight: bold;
+}
+
+.info_middle_botton_s{
+	margin-top: 12px;
+	width: 100%;
+	border-radius: 0;
+	border-color: black;
+	height: 36px;
+	font-weight: bold;
+}
+
+.info_right{
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info_middle_botton_left{
+	font-family: 'Adobe Garamond Pro';
+	padding-top: 2px;
+}
+
+.info_middle_botton_middle{
+	
+}
+
+.info_middle_botton_right{
+	padding: 0;
+}
+
+.info_img{
+	width: 100%;
+}
+
+.riyou{
+	padding-bottom: 50px;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 96px;
+	border: solid;
+	border-width: 1px 0 1px 0;
+}
+
+.riyou_header{
+	padding: 0;
+	height: 71px;
+	width: 100%;
+}
+
+.riyou_header_in{
+	width: 100%;
+	height: 100%;
+	display: flex;
+  	align-items: center;
+  	cursor: pointer;
+}
+
+.riyou_header_in_left{
+	/*padding: 0;*/
+    text-align: left;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.riyou_header_in_right{
+	text-align: right;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.riyou_content{
+	display: flex;
+	flex-direction: column;
+	line-height: 2;
+    font-size: 14px;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.riyou_content_top_left{
+	padding: 0;
+
+}
+
+.riyou_content_top_header{
+	cursor: pointer;
+}
+
+.riyou_content_top_item_in{
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.riyou_content_img{
+	margin-top: 4px;
+	height: 164px;
+	width: 164px;
+}
+
+.riyou_content_top_item_in_font{
+	
+}
+
+.riyou_content_top_item_right{
+	margin-top: 4px;
+	border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+.riyou_content_top_item_right_in{
+	height: 156px;
+	margin: 4px 4px 4px 4px;
+	border: 1px solid #000;
+    box-sizing: border-box;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.riyou_content_top_item_right_in_top{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.riyou_content_top_item_right_in_bottom{
+	text-align: center;
+	font-size: 26px;
+	font-family: '宋体'
+}
+
+.riyou_content_bottom{
+	margin-top: 40px;
+}
+
+.riyou_content_bottom_column{
+	padding-left: 0;
+}
+
+.riyou_content_bottom_item{
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.riyou_content_bottom_item_header{
+	cursor: pointer;
+	
+}
+
+.riyou_content_bottom_item_down:before{
+	content: '▶';
+}
+
+.riyou_content_bottom_item_font{
+	line-height: 1.5;
+	/*font-size: 12px;*/
+}
+
+.riyou_content_bottom_item_down{
+	color: #A10000;
+	line-height: 2;
+    font-size: 12px;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
+.riyou_table{
+	margin-top: 8px;
+	width: 100%;
+	border: solid;
+	border-width: 1px;
+    font-size: 12px
+}
+
+.riyou_table_header{
+	background-color: #f5f5f5;
+}
+
+.riyou_table_header_left{
+	display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 33px;
+
+}
+
+.riyou_table_header_right{
+	border: solid;
+	border-width: 0 0 0 1px;
+	line-height: 2;
+	display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 33px;
+}
+
+.riyou_table_down_left{
+	display: flex;
+    align-items: center;
+	border: solid;
+	border-width: 1px 0 0 0;
+	line-height: 2;
+	height: 33px;
+	padding-right: 0;
+}
+
+.riyou_table_down_right{
+	display: flex;
+    align-items: center;
+	border: solid;
+	border-width: 1px 0 0 1px;
+	line-height: 2;
+	height: 33px;
+}
+
+.share{
+
+	border-style: solid;
+	border-width: 0 0 1px 0;
+
+}
+
+.share_in{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	display: flex;
+    justify-content: center;
+}
+
+.share_img{
+	margin-top: 31px;
+	height: 25px;
+	width: 25px;
+	margin-bottom: 31px;
+	cursor: pointer;
+}
+
+.footer{
+	margin-bottom: 50px;
+}
+
+.footer_row{
+	margin-top: 25px;
+}
+
+.footer_row_in{
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: .1em;
+	font-weight: bold;
+	padding: 0;
+	display: flex;
+    justify-content: center;
+}
+
+.footer_row_left{
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: .1em;
+	font-weight: bold;
+	padding: 0;
+	text-align: left;
+}
+
+.footer_row_right{
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: .1em;
+	font-weight: bold;
+	padding: 0;
+	text-align: right;
+}
+
+.footer_pointer{
+	cursor: pointer;
 }
