@@ -7,6 +7,8 @@
 
 $(document).ready(function(){
 
+/*主页*/
+
 	$('.head_left_in_s').mouseenter(function(){      //左标题效果
 		$(this).animate({opacity:0.5},200);
 	});
@@ -77,37 +79,22 @@ $(document).ready(function(){
 		$(this).animate({opacity:1.0},200);
 	});
 
-	$('#myCarousel1').carousel({
-                interval: 2000
-            });
+/*选择页*/
 
+	$('.waselects_in_down_else').mouseenter(function(){           //脚注效果
+		$(this).animate({opacity:0.5},200);
+	});
+	$('.waselects_in_down_else').mouseleave(function(){
+		$(this).animate({opacity:1.0},200);
+	});
+
+/*binggan*/
+
+	$('.okaki_content_down_in').mouseenter(function(){           //脚注效果
+		$(this).animate({opacity:0.5},200);
+	});
+	$('.okaki_content_down_in').mouseleave(function(){
+		$(this).animate({opacity:1.0},200);
+	});
+	
 });
-
-/*var aImg = $('div.mainvisual_list_in');		//图像集合
-var iSize = 3;		//图像个数
-var index = 0;		//切换索引
-function change(index){
-	aImg.stop();
-	//隐藏除了当前元素，所以图像
-	aImg.eq(index).siblings().animate({
-		opacity:0
-	},1000)
-	//显示当前图像
-	aImg.eq(index).animate({
-	opacity:1
-	},1000)
-}
-
-	 
-function autoshow() {
-	index=index+1;
-	if(index<=iSize-1){
-		change(index);
-	}
-	else{
-		index=0;
-		change(index);
-	}
-			
-}
-int=setInterval(autoshow,5000);   //切换动画*/
