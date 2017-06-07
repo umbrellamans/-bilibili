@@ -16,6 +16,13 @@ $(document).ready(function(){
 		$(this).animate({opacity:1.0},200);
 	});
 
+	$('.head_middle').mouseenter(function(){      //中标题效果
+		$(this).animate({opacity:0.5},200);
+	});
+	$('.head_middle').mouseleave(function(){
+		$(this).animate({opacity:1.0},200);
+	});
+
 	$('.head_right_in_s').mouseenter(function(){      //右标题效果
 		$(this).animate({opacity:0.5},200);
 	});

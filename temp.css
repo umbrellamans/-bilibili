@@ -68,6 +68,7 @@ body{
 	padding-top: 32px;
 	display: flex;
 	flex-direction: column;
+	cursor: pointer;
 }
 
 .head_middle_top{
@@ -149,10 +150,18 @@ body{
 }
 
 .mainvisual_font{
-	width: 325px;
-    height: 236px;
-    left: 60%;
-    top: 15%;
+	left: 8%;
+    top: 5%;
+    width: 408px;
+    height: 363px;
+    position: absolute;
+}
+
+.mainvisual_font4{
+	left: 33%;
+    top: 50%;
+    width: 543px;
+    height: 262px;
     position: absolute;
 }
 
@@ -1114,4 +1123,62 @@ body{
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+}
+
+/*-----------------------goods------------------------*/
+.kodawari_header_in_else{
+	display: flex;
+  justify-content: flex-end;
+}
+
+.kodawari_svg{
+	    width: 203px;
+    height: 222px;
+}
+
+.kodawari_header_in_header{
+	padding: 0;
+	font-size: 20px;
+	line-height: 1.5;
+	height: 222px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    display: flex;
+  	flex-direction: column-reverse;
+}
+
+.kodawari_header_in_header_main_s{
+	padding: 0;
+}
+
+.kodawari_header_in_header_main{
+	display: flex;
+  justify-content: center;
+}
+
+.kodawari_header_in_header_bottom{
+	height: 10px;
+	width: 100%;
+	border: solid;
+	border-width: 0 1px 1px 1px;
+}
+
+.kodawari_header_content{
+	margin-top: 20px;
+	line-height: 2.28;
+    font-size: 14px;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.kodawari_header_img{
+	margin-top: 26px;
+}
+
+.kodawari_else{
+	margin-top: 86px;
+}
+
+.kodawari_header_last:before{
+    content: '写真右：';
 }
